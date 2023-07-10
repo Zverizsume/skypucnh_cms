@@ -1,0 +1,32 @@
+{
+  "name": "skypunch-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/provider-upload-aws-s3": "^4.11.4",
+    "@strapi/strapi": "4.11.4",
+    "better-sqlite3": "8.0.1",
+    "pg": "^8.11.1",
+    "pg-connection-string": "^2.6.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b2ffb650-0b97-4df4-ba74-7c4fb8fe265f"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
